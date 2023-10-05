@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics.sol": "intro"
+			"contracts/Basics_one.sol": "intro"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics.sol": {
-			"keccak256": "0x930aac3ee3980b113e211ba94e3bdf2f8f241daff9a0aab6b3433b29a4535ff5",
+		"contracts/Basics_one.sol": {
+			"keccak256": "0x41d103fdb08d2332a6c8ce8689ade72878479c2413ae2d2a7b587de0b0341896",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://98fb2cb9d9de0cefd9372aa14ea9470776e2c7141c6bd6b0162a0dd98bc09e1b",
-				"dweb:/ipfs/QmSaFu3d31Lpb8Gf5B17AGRPT4Dn35R8ysdcrgnbqLdWaC"
+				"bzz-raw://8bebfe3d1a77df68e299e64912fe9148715596bf8b1aeadbf2a6ecd7e3c41084",
+				"dweb:/ipfs/QmXWzW3a6nYyvcpEpeTDdVLEd4yhfpREYKDkukqhhpn2Am"
 			]
 		}
 	},
