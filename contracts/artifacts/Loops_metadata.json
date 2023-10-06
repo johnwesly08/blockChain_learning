@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "intro"
+			"contracts/Basics_three.sol": "Loops"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0xaa61ced2adbe81c8f6d4442ba1d5c945fd522c0eb68f297e2a34780374835355",
+		"contracts/Basics_three.sol": {
+			"keccak256": "0xa9f34528a26c83b74f4fa8fee7001648185a73997c1d8ac2ad725410d33d6147",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3904599822a64b3b79cf12c69742fa668f8996f2b65ff9d2ed189c77a8f0c237",
-				"dweb:/ipfs/QmQujhuTft5NQnoAYqcyKyZx5JGzNwkDFYkRL6PZ6kSDB3"
+				"bzz-raw://19f1170aa8b5de196a38cb72289149b5d3d89e86b4172db698fe99cd2d6c8c6b",
+				"dweb:/ipfs/Qmf3BB257qSyW97KjyeLLQeYL7uejH7macPLYmq8GirB5w"
 			]
 		}
 	},

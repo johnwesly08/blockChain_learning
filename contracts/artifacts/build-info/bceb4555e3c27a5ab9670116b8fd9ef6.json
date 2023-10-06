@@ -1,0 +1,71 @@
+{
+	"id": "bceb4555e3c27a5ab9670116b8fd9ef6",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.18",
+	"solcLongVersion": "0.8.18+commit.87f61d96",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Basics_two.sol": {
+				"content": "\r\n// SPDX-License-Identifier: MIT\r\npragma solidity >=0.7.0 < 0.9.0;\r\n\r\n// //using of pure and view keyword\r\n// contract vp {\r\n//     uint public num1;\r\n\r\n//     function setter(uint _num) public{\r\n//         num1 = _num;\r\n//     }\r\n\r\n//     //I am just reading the state variable, and hence => View{Keyword}\r\n//     function getter() public view returns(uint) {\r\n//         return num1;\r\n//     }\r\n\r\n//     function random() public pure returns(uint){\r\n//         uint abc;\r\n//         return abc;\r\n//     }\r\n// }\r\n\r\n// /* \r\n// Points to be noted\r\n// 1. When we are just changing the values of the state variable, there's ain't no need for pure or view\r\n// 2. I am just reading the state variable, and hence => View{Keyword}\r\n// 3. Whenever you're modifying the local variable, either reading,computing or writing a local variable,then use the pure keyword.\r\n// */\r\n\r\n\r\n\r\n\r\n\r\n// //Constructors\r\n\r\n// contract construct {\r\n//     uint public num=5;\r\n\r\n//     constructor(uint _num){\r\n//         num=_num;\r\n//     }\r\n\r\n// }\r\n\r\n// /*\r\n//     According to solidity, these constructors are also called as functions.\r\n//     Constructor can be executed only once, and that is also after the deploy.\r\n//     It can be creted only once, which is also optional.\r\n//     Even you haven't created a cinstrutor in the code, the Solidity will itself will create a constructor. \r\n//  */\r\n\r\n//Day two\r\n\r\n\r\n//Integer data type\r\n//int holds both negative and positive numbers, while uint holds positive numbers only. the usual default value is zero.\r\n//range calculation that int hold => 2^(n-1) to 2^(n-1)-1; for uint => 0 to 2^(n-1)-1;\r\n\r\n\r\n// contract intData {\r\n//     uint public num=1;\r\n//     int public _num = -12;\r\n//     // int8 value = 128;//-128 to 127\r\n    \r\n// }\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/Basics_two.sol": {
+				"ast": {
+					"absolutePath": "contracts/Basics_two.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:32:0"
+						}
+					],
+					"src": "35:1728:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

@@ -6,15 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "_num",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -43,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_two.sol": "construct"
+			"contracts/Basics_two.sol": "intData"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -58,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Basics_two.sol": {
-			"keccak256": "0x66acbd67241d5dd919dc9fac1dde6319e82dac8d194652bcc1fa3c9b16bb88b6",
+			"keccak256": "0x453ffcefe41f8692647ed2f1cd7c1367192ecbda0b4b44ce458babbaf42530b5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bdb53681570acb3c8f033f8fbd98dc376d0224b10a7b31303dacf8e3b5d7c558",
-				"dweb:/ipfs/QmR4PsVt8b3GYttzfnmasuwg9bBcsNrwyqYuMhpERVbDFr"
+				"bzz-raw://acd523e76021f90d950b7253949fbf87dbc16b0ba3a3ddc563965e7967303896",
+				"dweb:/ipfs/QmRYUDPKyim2a8jHgTJ3UeLozsZvsrizBSB6hvW6xE4jdi"
 			]
 		}
 	},

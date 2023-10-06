@@ -13,12 +13,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "num",
+				"name": "sumOdd",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,7 +21,26 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "sumeven",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -43,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_two.sol": "construct"
+			"contracts/Pro_sum_of_Odd_and_Even_numbers.sol": "sumOfNumbers"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -57,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_two.sol": {
-			"keccak256": "0x66acbd67241d5dd919dc9fac1dde6319e82dac8d194652bcc1fa3c9b16bb88b6",
+		"contracts/Pro_sum_of_Odd_and_Even_numbers.sol": {
+			"keccak256": "0x7c9584ac9427100965db9d8ec3f7991b5b221bffe8bb0d671276bccfd8a7162f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bdb53681570acb3c8f033f8fbd98dc376d0224b10a7b31303dacf8e3b5d7c558",
-				"dweb:/ipfs/QmR4PsVt8b3GYttzfnmasuwg9bBcsNrwyqYuMhpERVbDFr"
+				"bzz-raw://c5ef6b93f931f4751e3e3a3fd7497ee46a6881f896962c954d1c9fa8537e6dea",
+				"dweb:/ipfs/QmbYyzWsTLkbf6vkGcLudv3VxKn2hfLNsaoVAz7Ea34tbD"
 			]
 		}
 	},

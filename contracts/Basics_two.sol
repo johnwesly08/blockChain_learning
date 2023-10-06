@@ -32,20 +32,36 @@ pragma solidity >=0.7.0 < 0.9.0;
 
 
 
-//Constructors
+// //Constructors
 
-contract construct {
-    uint public num=5;
+// contract construct {
+//     uint public num=5;
 
-    constructor(uint _num){
-        num=_num;
-    }
+//     constructor(uint _num){
+//         num=_num;
+//     }
 
-}
+// }
 
-/*
-    According to solidity, these constructors are also called as functions.
-    Constructor can be executed only once, and that is also after the deploy.
-    It can be creted only once, which is also optional.
-    Even you haven't created a cinstrutor in the code, the Solidity will itself will create a constructor. 
- */
+// /*
+//     According to solidity, these constructors are also called as functions.
+//     Constructor can be executed only once, and that is also after the deploy.
+//     It can be creted only once, which is also optional.
+//     Even you haven't created a cinstrutor in the code, the Solidity will itself will create a constructor. 
+//  */
+
+//Day two
+
+
+//Integer data type
+//int holds both negative and positive numbers, while uint holds positive numbers only. the usual default value is zero.
+//range calculation that int hold => 2^(n-1) to 2^(n-1)-1; for uint => 0 to 2^(n-1)-1;
+
+
+// contract intData {
+//     uint public num=1;
+//     int public _num = -12;
+//     // int8 value = 128;//-128 to 127
+    
+// }
+

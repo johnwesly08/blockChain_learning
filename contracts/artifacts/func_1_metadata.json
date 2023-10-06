@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "num",
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -27,6 +16,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -43,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_two.sol": "construct"
+			"contracts/Basics_one.sol": "func_1"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -57,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_two.sol": {
-			"keccak256": "0x66acbd67241d5dd919dc9fac1dde6319e82dac8d194652bcc1fa3c9b16bb88b6",
+		"contracts/Basics_one.sol": {
+			"keccak256": "0xaa61ced2adbe81c8f6d4442ba1d5c945fd522c0eb68f297e2a34780374835355",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bdb53681570acb3c8f033f8fbd98dc376d0224b10a7b31303dacf8e3b5d7c558",
-				"dweb:/ipfs/QmR4PsVt8b3GYttzfnmasuwg9bBcsNrwyqYuMhpERVbDFr"
+				"bzz-raw://3904599822a64b3b79cf12c69742fa668f8996f2b65ff9d2ed189c77a8f0c237",
+				"dweb:/ipfs/QmQujhuTft5NQnoAYqcyKyZx5JGzNwkDFYkRL6PZ6kSDB3"
 			]
 		}
 	},
