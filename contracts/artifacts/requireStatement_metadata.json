@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -72,11 +72,11 @@
 	},
 	"sources": {
 		"contracts/Basics_Conditional.sol": {
-			"keccak256": "0xe2c0ce2b61febd7cf0beb844859197e48073f5f4b87653271ad2c96e75922151",
+			"keccak256": "0x8fd2c85323152948edd2e31ab76ea555054634bc30de2e8ea8f239eb9ccce4c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://340a30882f5e181aa9ecf445a16d1a78774a1a3900057bec49cbd8f24367abb4",
-				"dweb:/ipfs/QmTkuHEaa4iaiFXe6iu1rBicj2gYw8Ec1Exg5YB5xKyvvC"
+				"bzz-raw://37e38e4c55351c4c82798f690ed8c87d04b6f0a170f69a0e600f1f0984cd9354",
+				"dweb:/ipfs/QmR9y6Y2AihAGamwWwoPW5Mrzca4uZHx1aF2yR2M1rhJAb"
 			]
 		}
 	},

@@ -1,10 +1,15 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
 			{
 				"inputs": [],
 				"name": "num",
@@ -39,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "variable"
+			"contracts/BASICS_1.sol": "variable"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -53,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x41d103fdb08d2332a6c8ce8689ade72878479c2413ae2d2a7b587de0b0341896",
+		"contracts/BASICS_1.sol": {
+			"keccak256": "0x9ab5b7e7923a23fb89f6eed9b209c25465e7320aafc64c9e84233c2ec121cc0b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8bebfe3d1a77df68e299e64912fe9148715596bf8b1aeadbf2a6ecd7e3c41084",
-				"dweb:/ipfs/QmXWzW3a6nYyvcpEpeTDdVLEd4yhfpREYKDkukqhhpn2Am"
+				"bzz-raw://8189914288b7ebee6509bb3c252881336b86141f73e402296ec0dc17978dc7d1",
+				"dweb:/ipfs/QmcS2jqZmLxNi1u6iDkQyjwKsBLvxJ7bngja66odzreq9h"
 			]
 		}
 	},

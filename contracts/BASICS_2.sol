@@ -13,13 +13,13 @@ contract vp {
 //     //I am just reading the state variable, and hence => View{Keyword}
     function getter() public view returns(uint) {
         return num1;
-    }}
+    }
 
-//     function random() public pure returns(uint){
-//         uint abc;
-//         return abc;
-//     }
-// }
+    function random() public pure returns(uint){
+        uint abc;
+        return abc;
+    }
+}
 
 // /* 
 // Points to be noted

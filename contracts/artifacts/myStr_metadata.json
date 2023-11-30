@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -15,13 +15,6 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setter",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -39,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Array.sol": "myStr"
+			"contracts/Strings.sol": "myStr"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -53,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Array.sol": {
-			"keccak256": "0xd5e8c1851134389b1867be54d94340a86d7dc755137c200073705bc01bda0e9d",
+		"contracts/Strings.sol": {
+			"keccak256": "0x68c12cbe4026c48860ff47d9f2de4b1abc69267f53fa1534cab3d6c0823931f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a73b77c58a06d7243681f1ac787e776d97d2f52dec9d1879986672976400bc6b",
-				"dweb:/ipfs/QmYZyho7mZmNdXa9fyGt8TwViJktT8Ks5j9zC4gHKo19Ds"
+				"bzz-raw://537f93d64f504e482c348134cedf54b6df65ad7b6683ad09a75cf71c5b15eb94",
+				"dweb:/ipfs/QmZyGeGnZpafC4ngR7sN8smxDN69BW889wFMv9GJVuAYm5"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "func_1"
+			"contracts/BASICS_1.sol": "func_1"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/BASICS_1.sol": {
+			"keccak256": "0x9ab5b7e7923a23fb89f6eed9b209c25465e7320aafc64c9e84233c2ec121cc0b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://8189914288b7ebee6509bb3c252881336b86141f73e402296ec0dc17978dc7d1",
+				"dweb:/ipfs/QmcS2jqZmLxNi1u6iDkQyjwKsBLvxJ7bngja66odzreq9h"
 			]
 		}
 	},

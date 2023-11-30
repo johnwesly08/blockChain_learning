@@ -13,3 +13,24 @@ contract myArrays {
     }
     }
 
+contract array{
+    uint[] myArray = [1,2,3];
+    function toAdd(uint _num) public{
+        myArray.push(_num);
+    }
+
+    // function toPop(uint _num) public{
+    //     myArray.pop(_num);
+    // }
+ 
+    function toDel(uint _num) public{
+        delete myArray[_num];
+    }
+
+    
+    function showTodo() public view returns(uint[] memory){
+        return myArray;
+    }
+
+} 
+

@@ -5,37 +5,46 @@ contract intro {
     string public str="Hello World";//printing a hello world
 }
 
-// //declaring a state variable
-// //uint => Unsigned Integer
+contract DataTypes {
+    //Types
+    string public name = "John";
+    int public age = -10;
+    uint public num = 20;
+    bool public pass = true;
+    address public owner = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4; 
+}
 
-// contract variable {
-//     // uint public num = 5;//state variable
+//declaring a state variable 
+// uint => Unsigned Integer
 
-//     // constructor() {
-//     //     num = 10;
-//     // }
+contract variable {
+    uint public num = 5;//state variable
+
+    constructor() {
+        num = 10;
+    }
 
 //     /*Always declaring any variable or function along the Public keyword will make those functionality to be open and public */
 //     /*Generally all the variables that is declared inside the contract outside the function is said to be the State Variable. Meanwhile, this state variable will be usually in the permanent memory like storage in storage contract */
     
-//     uint public num;// By declaring a variable with no value will gives the output value as Zero(Which is a default)
+    // uint public num;// By declaring a variable with no value will gives the output value as Zero(Which is a default)
 
-//     //declaring a function
-//     function seter() public {
-//         num = 200;
-//     }
-// }
+    //declaring a function
+    function seter() public {
+        num = 200;
+    }
+}
 // // Thus, to change the dafault values of the state variable, we can use the above methods => 1. constructor, 2.Setter Function,3. Or by just change the initializing of a variable
 
-// contract _variable {
+contract _variable {
 
-//     uint c;//State variable
-//     function local() public pure returns(uint) {
-//         uint a;//Local Variable
-//         uint b;//Local Variable
-//         return a+b;
-//     }/*There are actually 3 areas namely, 1. Stack, 2. Storage, 3. Memory */
-// }
+    uint c;//State variable
+    function local() public pure returns(uint) {
+        uint a;//Local Variable
+        uint b;//Local Variable
+        return a+b;
+    }/*There are actually 3 areas namely, 1. Stack, 2. Storage, 3. Memory */
+}
 
 // how to create a function
 contract func_1 {

@@ -4,7 +4,15 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "head",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +41,11 @@
 	},
 	"sources": {
 		"contracts/Lottery.sol": {
-			"keccak256": "0x6c4af4b1a74f61c6ae5944320b49d5938f3a59a43546a661696b69db76bad45f",
+			"keccak256": "0xab671b8e946adadc934e4b6fc7ede23341d1f4a0c9061521b3f0aaeb8cf57b85",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b96389c1219b4b0eeedd5c5c5464048c082f78803fb37a611af30333e20b6fa8",
-				"dweb:/ipfs/QmUGf3Xmqxjo2S1XHeZrXvtz4kVTtz5o72TaAdMS1DUB4E"
+				"bzz-raw://7c739a6a6a2d2ef41303bc38c1c10dad288d8ca9b38af7eeaccf314ab1d4d922",
+				"dweb:/ipfs/Qmco3wLFPBgGYgpTorQDza4bdq8nLhNskb98qp8LcUBRYV"
 			]
 		}
 	},

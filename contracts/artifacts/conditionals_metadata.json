@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,7 +45,7 @@
 		"compilationTarget": {
 			"contracts/Basics_Conditional.sol": "conditionals"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"contracts/Basics_Conditional.sol": {
-			"keccak256": "0xff0622afe43c136f9607cf4e97cdb3677240c766857189c24b028dfecef4c0c1",
+			"keccak256": "0x8fd2c85323152948edd2e31ab76ea555054634bc30de2e8ea8f239eb9ccce4c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://98fcb74684a893f8123293474725a46ff628911f935a2179ce0bd24773ed1090",
-				"dweb:/ipfs/QmYSudEcqvDH6zeScBb4WSpKZZ35YVGM7h6sq6QTdzutoz"
+				"bzz-raw://37e38e4c55351c4c82798f690ed8c87d04b6f0a170f69a0e600f1f0984cd9354",
+				"dweb:/ipfs/QmR9y6Y2AihAGamwWwoPW5Mrzca4uZHx1aF2yR2M1rhJAb"
 			]
 		}
 	},

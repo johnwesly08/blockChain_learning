@@ -65,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/structs.sol": "structs"
+			"contracts/Structs.sol": "structs"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -79,7 +79,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/structs.sol": {
+		"contracts/Structs.sol": {
 			"keccak256": "0x4fb3686cfdca679000b48a4c102dfecb20d1a471aa3b307fccac1dea2ba153fc",
 			"license": "MIT",
 			"urls": [

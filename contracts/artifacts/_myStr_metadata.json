@@ -7,26 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "documentStatus",
+				"name": "getter",
 				"outputs": [
 					{
-						"internalType": "enum Status",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "enum Status",
-						"name": "_newStatus",
-						"type": "uint8"
-					}
-				],
-				"name": "updateStatus",
+				"inputs": [],
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Enums.sol": "enums"
+			"contracts/Strings.sol": "_myStr"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Enums.sol": {
-			"keccak256": "0x5b5307273042f35aea1d70b2a673480d082a79b46f764ceeca0fb05c37c06b2c",
+		"contracts/Strings.sol": {
+			"keccak256": "0x68c12cbe4026c48860ff47d9f2de4b1abc69267f53fa1534cab3d6c0823931f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0711445a3f5ab8a9fb34a388bcf8e62231c3ed0507f824f97c090788e793736a",
-				"dweb:/ipfs/QmW48caz1fTF6tL62AAFKkkTVFWmReQ5SdXyFv4uD6gAEz"
+				"bzz-raw://537f93d64f504e482c348134cedf54b6df65ad7b6683ad09a75cf71c5b15eb94",
+				"dweb:/ipfs/QmZyGeGnZpafC4ngR7sN8smxDN69BW889wFMv9GJVuAYm5"
 			]
 		}
 	},

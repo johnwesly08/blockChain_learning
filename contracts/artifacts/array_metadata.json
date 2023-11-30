@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Array.sol": "array"
+			"contracts/Arrays.sol": "array"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Array.sol": {
-			"keccak256": "0x795cdfeecb6c537536208e61c1d9061af8b9f81099372096e1136f9911638216",
+		"contracts/Arrays.sol": {
+			"keccak256": "0x76f798bfc0f83083a685a1372f450b41733728fa28e9bc2a4d7413d0dfef804e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9d352319b23de534f02367b1f3a64b5aa5ec66f1859e848152ffdf692834223",
-				"dweb:/ipfs/QmUFyGG2sA8yej185ojcoW9f2G19Xyq3hZSAdnorKmeh1F"
+				"bzz-raw://df5c4b88ad42f9332b380006830e613054ea83da388d87997e191bbe01882f5d",
+				"dweb:/ipfs/QmcvpPzkgaMtq98aMpfkHjgCHY2ACyFLWfXxPp89cs1FGk"
 			]
 		}
 	},

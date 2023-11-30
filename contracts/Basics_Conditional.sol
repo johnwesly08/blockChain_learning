@@ -4,35 +4,35 @@ pragma solidity >0.7.0 < 0.9.0;
 /* All these loops and functions are needed to be written only 
 inside the function,and not inside the loop.
 */
-// contract conditionals {
-//     function checking(uint a, uint b) public pure returns(uint) {
-//         if(a>b) {
-//             return 1;
-//         }else if (a==b) {
-//             return 2;
-//         }else{
-//             return 0;
-//         }
-//     }
-// }
+contract conditionals {
+    function checking(uint a, uint b) public pure returns(uint) {
+        if(a>b) {
+            return 1;
+        }else if (a==b) {
+            return 2;
+        }else{
+            return 0;
+        }
+    }
+}
 
 //Bool Data type
 
 //Points to be noted: 
 /* Default bool value is 'false';
 // */
-// contract boolData {
-//     bool public value;//default value is false';
-//     bool public _value = true;//means it's true;
+contract boolData {
+    bool public value;//default value is false';
+    bool public _value = true;//means it's true;
 
-//     function EvenOdd (uint a)public pure returns(bool) {
-//         if(a%2==0) {
-//             return true;
-//         }else {
-//             return false;
-//         }
-//     }
-// }
+    function EvenOdd (uint a)public pure returns(bool) {
+        if(a%2==0) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+}
 
 //require statement
 contract requireStatement {

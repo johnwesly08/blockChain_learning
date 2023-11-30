@@ -1,10 +1,50 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doWhileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_three.sol": "Loops"
+			"contracts/Loops.sol": "Loops"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_three.sol": {
-			"keccak256": "0xa9f34528a26c83b74f4fa8fee7001648185a73997c1d8ac2ad725410d33d6147",
+		"contracts/Loops.sol": {
+			"keccak256": "0x0aa8dc0409e9b240eb5d12d1f67c0277198c8fb04153cb5f0fbff5884f60306e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19f1170aa8b5de196a38cb72289149b5d3d89e86b4172db698fe99cd2d6c8c6b",
-				"dweb:/ipfs/Qmf3BB257qSyW97KjyeLLQeYL7uejH7macPLYmq8GirB5w"
+				"bzz-raw://7f3ce7196635071365a6a6a4e350f61deddbf4c2f61477d9a2e4700a36a7fd10",
+				"dweb:/ipfs/QmWkR9UyqfTLiN5ShjZfDpoc8bZPQht2UQJmgdUjcAnmBb"
 			]
 		}
 	},

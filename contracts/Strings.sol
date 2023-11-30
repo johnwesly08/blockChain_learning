@@ -1,5 +1,27 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.21; 
+pragma solidity >=0.7.0 <=0.9.0;
+
+
+//Strings 
+
+contract myStr {
+    string text;
+    function getter() public returns(string memory) {
+        text = "John Wesly";
+        return text;
+    }
+}
+
+contract _myStr {
+    string myText;
+
+    function setter() public {
+        myText = "Hello";
+    }
+    function getter() view public returns(string memory) {
+        return myText;
+    }
+}
 
 contract strings {
     string text;
@@ -17,3 +39,6 @@ contract strings {
         return (text, test.length);
     }
 }
+
+
+
