@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/practice.sol": "practice"
+			"contracts/_practice.sol": "practice"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/practice.sol": {
+		"contracts/_practice.sol": {
 			"keccak256": "0x81a6c224013723257ade908d46abf833fd06c5951d51e36838fcf444f4648066",
 			"license": "MIT",
 			"urls": [

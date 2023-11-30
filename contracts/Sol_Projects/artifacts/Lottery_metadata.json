@@ -26,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Pro_Lottery.sol": "Lottery"
+			"contracts/Sol_Projects/Copy_Pro_Lottery.sol": "Lottery"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -40,7 +40,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Pro_Lottery.sol": {
+		"contracts/Sol_Projects/Copy_Pro_Lottery.sol": {
 			"keccak256": "0xab671b8e946adadc934e4b6fc7ede23341d1f4a0c9061521b3f0aaeb8cf57b85",
 			"license": "MIT",
 			"urls": [

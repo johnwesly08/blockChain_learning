@@ -9,30 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "Byear",
 						"type": "uint256"
-					}
-				],
-				"name": "sumOdd",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "age",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "sumeven",
+				"name": "year",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -57,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Pro_sum_of_Odd_and_Even_numbers.sol": "sumOfNumbers"
+			"contracts/Sol_Projects/Pro_CurrentYear.sol": "YearFinder"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -71,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Pro_sum_of_Odd_and_Even_numbers.sol": {
-			"keccak256": "0x7c9584ac9427100965db9d8ec3f7991b5b221bffe8bb0d671276bccfd8a7162f",
+		"contracts/Sol_Projects/Pro_CurrentYear.sol": {
+			"keccak256": "0xff1d4d3012b7f42b880a6a66de7875dc2c4faa223d8695adad6680aa5453459c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5ef6b93f931f4751e3e3a3fd7497ee46a6881f896962c954d1c9fa8537e6dea",
-				"dweb:/ipfs/QmbYyzWsTLkbf6vkGcLudv3VxKn2hfLNsaoVAz7Ea34tbD"
+				"bzz-raw://b35ef6f0b7d01edc5328f78c84e6d37426b91ff7ba4c1af4195059741d6c6459",
+				"dweb:/ipfs/QmcPM6Sjr5AiJdnqDfcAyecqNJqjTgWmgpLiCGBqKYPCU8"
 			]
 		}
 	},
