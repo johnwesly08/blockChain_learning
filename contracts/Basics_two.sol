@@ -3,17 +3,17 @@
 pragma solidity >=0.7.0 < 0.9.0;
 
 // //using of pure and view keyword
-// contract vp {
-//     uint public num1;
+contract vp {
+    uint public num1;
 
-//     function setter(uint _num) public{
-//         num1 = _num;
-//     }
+    function setter(uint _num) public{
+        num1 = _num;
+    }
 
 //     //I am just reading the state variable, and hence => View{Keyword}
-//     function getter() public view returns(uint) {
-//         return num1;
-//     }
+    function getter() public view returns(uint) {
+        return num1;
+    }}
 
 //     function random() public pure returns(uint){
 //         uint abc;

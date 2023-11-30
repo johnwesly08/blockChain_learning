@@ -1,27 +1,26 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getter",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "mytext",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num1",
+				"name": "showtext",
 				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -34,12 +33,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
 					}
 				],
-				"name": "setter",
+				"name": "textByPassing",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "func_1"
+			"contracts/Strings.sol": "strings"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/Strings.sol": {
+			"keccak256": "0x88ca6e00a6a70c565c44e283695f3da086040eeacacd000b3b8d19b32e983263",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://71cf81db138c28ec013fb55a1bfbe66c12739b9f0b85eea00fb65bd96eedb79d",
+				"dweb:/ipfs/QmWJNrvjsZzMgQYvSWXncE9x7921WEf1pbNQ8Bpvy9xvWm"
 			]
 		}
 	},

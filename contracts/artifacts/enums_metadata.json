@@ -1,31 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getter",
+				"name": "documentStatus",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum Status",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -34,12 +21,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "enum Status",
+						"name": "_newStatus",
+						"type": "uint8"
 					}
 				],
-				"name": "setter",
+				"name": "updateStatus",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "func_1"
+			"contracts/enums.sol": "enums"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/enums.sol": {
+			"keccak256": "0x5b5307273042f35aea1d70b2a673480d082a79b46f764ceeca0fb05c37c06b2c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://0711445a3f5ab8a9fb34a388bcf8e62231c3ed0507f824f97c090788e793736a",
+				"dweb:/ipfs/QmW48caz1fTF6tL62AAFKkkTVFWmReQ5SdXyFv4uD6gAEz"
 			]
 		}
 	},

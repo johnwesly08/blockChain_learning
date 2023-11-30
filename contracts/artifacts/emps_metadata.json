@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "str",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "intro"
+			"contracts/structs.sol": "emps"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/structs.sol": {
+			"keccak256": "0x0dd15eee0e89e8bb863f11692301aeccd0ba22a0408b713a7f4e7d192cab94a1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://905a7c87543f965d1d5b8ecff66357129f306c5196ce3db8ab15b7337914352b",
+				"dweb:/ipfs/QmdHw1gDTXwuQNppjPkg4owc4Kea3u8HodiZc9M6ti59LD"
 			]
 		}
 	},

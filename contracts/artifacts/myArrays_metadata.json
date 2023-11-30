@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,38 +9,51 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "isZero",
+				"name": "array1",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arraycall",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "b",
+						"name": "_i",
 						"type": "uint256"
 					}
 				],
-				"name": "revertStatement",
+				"name": "getMyArray",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -57,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_Conditional.sol": "requireStatement"
+			"contracts/Arrays.sol": "myArrays"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -71,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_Conditional.sol": {
-			"keccak256": "0xe2c0ce2b61febd7cf0beb844859197e48073f5f4b87653271ad2c96e75922151",
+		"contracts/Arrays.sol": {
+			"keccak256": "0x950e315e9d35bca90dee577137492f5230951887f39cc36c8e44fd7afef18930",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://340a30882f5e181aa9ecf445a16d1a78774a1a3900057bec49cbd8f24367abb4",
-				"dweb:/ipfs/QmTkuHEaa4iaiFXe6iu1rBicj2gYw8Ec1Exg5YB5xKyvvC"
+				"bzz-raw://bc243603ddfbea3005215d43ec69f43130733b1164396c99b32a81b31c9c7f5b",
+				"dweb:/ipfs/QmawvaPUvNt1iP4KhrDfyv6PdfdpLqtZAT8tdgWF1ueY1K"
 			]
 		}
 	},

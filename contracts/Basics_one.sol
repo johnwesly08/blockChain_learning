@@ -54,6 +54,6 @@ contract func_1 {
 
 //important points for functions
 /*
-    when setter function is called and used, it creates a t4ransaction and costs a gas, becoz it changes the blockChain
+    when setter function is called and used, it creates a transaction and costs a gas, becoz it changes the blockChain
     Whenever you're declaring a public state variable, a getter function will be generated automatically.
 */

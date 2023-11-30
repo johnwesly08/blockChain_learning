@@ -1,39 +1,39 @@
 {
 	"compiler": {
-		"version": "0.7.0+commit.9e61f92b"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "f1",
+				"name": "age",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "f2",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "f3",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,20 +41,33 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "f4",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pass",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,9 +84,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_modifiers.sol": "modifiers"
+			"contracts/new.sol": "New"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_modifiers.sol": {
-			"keccak256": "0xada26dd77151cec46924deb4c13111cb86a24636f40ccab0b16d88422aad06b2",
+		"contracts/new.sol": {
+			"keccak256": "0x549958d4ed0b765e770a4bdb63314f8cd315cd7cb688132ae383b4d323760d3d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8097598d2728e2dbd9125b3bcdb6a6d8605d69c42de85eb560421865f880dc11",
-				"dweb:/ipfs/QmZM1tWjRjqC5kUb37HoMF2KgntBhXQNWauvfFVGucXh9p"
+				"bzz-raw://a33513abf95e7de9b6c48dd74e9acaa8595fda507c102c99791685bf6827cd66",
+				"dweb:/ipfs/QmTX6k9Rp4KFJUidiZ2ix8Nc1fpwiS8u4uyKVAyA69Xufn"
 			]
 		}
 	},

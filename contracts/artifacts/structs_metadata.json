@@ -1,47 +1,54 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getter",
+				"name": "Structure",
 				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "num1",
+				"name": "std1",
 				"outputs": [
 					{
+						"internalType": "string",
+						"name": "ename",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "eid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "workDays",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "func_1"
+			"contracts/structs.sol": "structs"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/structs.sol": {
+			"keccak256": "0x4fb3686cfdca679000b48a4c102dfecb20d1a471aa3b307fccac1dea2ba153fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://b58ed1bcdfaebe36fc5fc08d2a65f5104a88e11799599d68275c2d7f1d1e3f72",
+				"dweb:/ipfs/QmVFmwKoZJHfsya7z32AdyBZ6cFkMKhHHEyi2wirMjRqGV"
 			]
 		}
 	},

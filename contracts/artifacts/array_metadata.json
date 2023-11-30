@@ -1,31 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.21+commit.d9974bed"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getter",
+				"name": "showTodo",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +26,20 @@
 						"type": "uint256"
 					}
 				],
-				"name": "setter",
+				"name": "toAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "toDel",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "func_1"
+			"contracts/Array.sol": "array"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/Array.sol": {
+			"keccak256": "0x795cdfeecb6c537536208e61c1d9061af8b9f81099372096e1136f9911638216",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://b9d352319b23de534f02367b1f3a64b5aa5ec66f1859e848152ffdf692834223",
+				"dweb:/ipfs/QmUFyGG2sA8yej185ojcoW9f2G19Xyq3hZSAdnorKmeh1F"
 			]
 		}
 	},

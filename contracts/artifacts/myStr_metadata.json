@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "str",
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -16,6 +16,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics_one.sol": "intro"
+			"contracts/Array.sol": "myStr"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics_one.sol": {
-			"keccak256": "0x2c98da7d54fd8cb04d0e482182f37b5362dd501c525051168e0a58edb789a280",
+		"contracts/Array.sol": {
+			"keccak256": "0xd5e8c1851134389b1867be54d94340a86d7dc755137c200073705bc01bda0e9d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://397db8fb9fe8c1023fdab301194616a7a8c0388669b1df9f673b49e1296646d4",
-				"dweb:/ipfs/QmYB3JKnGkXi1FS2YLGyJ2SKSG5uDxW1RuY2xWAcGmanvX"
+				"bzz-raw://a73b77c58a06d7243681f1ac787e776d97d2f52dec9d1879986672976400bc6b",
+				"dweb:/ipfs/QmYZyho7mZmNdXa9fyGt8TwViJktT8Ks5j9zC4gHKo19Ds"
 			]
 		}
 	},

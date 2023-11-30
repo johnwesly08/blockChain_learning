@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -29,19 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "random",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -86,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Basics_two.sol": {
-			"keccak256": "0x4677546643e48f26af9c9c2312a7bc6df61ca3c1035ce2e744814fcbd145c82e",
+			"keccak256": "0x4f1b29e1e61378b99c5ef9ddd14e0c9d58b65b4175c00e9be239d7c46d31c9b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a46f279253ef6a8a7d15a44798116b7ffb4c636a655067d7bb308a7778828770",
-				"dweb:/ipfs/QmSsSCsd7Kv8jZd9yBVHjxiQ6P4NQp6qqmdExb9c7qtdVY"
+				"bzz-raw://08c9fb3fba0646bb675f03f9838082601ddb3be8c4852d919ed02064c61acded",
+				"dweb:/ipfs/QmNVYVbm8fVVSDRWjmFAWARpgqfyRVPsfaAwZkYXhNYkFQ"
 			]
 		}
 	},

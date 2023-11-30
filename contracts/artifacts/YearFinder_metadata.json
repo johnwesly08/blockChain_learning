@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -43,9 +43,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Pro_CurentYear.sol": "YearFinder"
+			"contracts/Pro_CurrentYear.sol": "YearFinder"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -57,7 +57,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Pro_CurentYear.sol": {
+		"contracts/Pro_CurrentYear.sol": {
 			"keccak256": "0xff1d4d3012b7f42b880a6a66de7875dc2c4faa223d8695adad6680aa5453459c",
 			"license": "MIT",
 			"urls": [
