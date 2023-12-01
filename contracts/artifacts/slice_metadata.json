@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myArray",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Arrays.sol": "slice"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Arrays.sol": {
+			"keccak256": "0xb4e7833cc1182f536a63c3c533e82f53485aef1cd42eaa6cbbebce8e0755ff77",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://912b549752468a28b12ca17ad0c542116d26308a4f5e091148f7840722e46512",
+				"dweb:/ipfs/QmfF882pRrFfs3cfeo96mMRejeEni41PP9nzro4BP1F3dy"
+			]
+		}
+	},
+	"version": 1
+}

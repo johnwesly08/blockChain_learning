@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dyArr",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Arrays.sol": "dynamicArryas1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Arrays.sol": {
+			"keccak256": "0xed2e52f3866a5dada5a018f34833385e62dc714af819505957c631f467be6ce3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0c72620721e223a9c618c3413a484eb0bf3707143cfde2003486f2bfc777642",
+				"dweb:/ipfs/QmTdZGrWPzYer8Scq117QRi6hYCZAPWDbJe5ZmL6SvEQr9"
+			]
+		}
+	},
+	"version": 1
+}
