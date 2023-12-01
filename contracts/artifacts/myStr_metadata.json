@@ -1,12 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
 				"name": "getter",
 				"outputs": [
 					{
@@ -47,11 +53,11 @@
 	},
 	"sources": {
 		"contracts/Strings.sol": {
-			"keccak256": "0x68c12cbe4026c48860ff47d9f2de4b1abc69267f53fa1534cab3d6c0823931f1",
+			"keccak256": "0x94d6015407fcaade9daec6d8ae30726e3e3fca06c9a83e95ba30cc7a2ae90a52",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://537f93d64f504e482c348134cedf54b6df65ad7b6683ad09a75cf71c5b15eb94",
-				"dweb:/ipfs/QmZyGeGnZpafC4ngR7sN8smxDN69BW889wFMv9GJVuAYm5"
+				"bzz-raw://986c5eccafc468ffea1ed17848400d34307b9bd00081536df9334cc6e54615fe",
+				"dweb:/ipfs/QmWZZGBaU4ueWWTGWsruUUqrr1YKh9BENRyrcMbtGTAodk"
 			]
 		}
 	},

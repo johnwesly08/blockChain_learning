@@ -6,8 +6,8 @@ pragma solidity >=0.7.0 <=0.9.0;
 
 contract myStr {
     string text;
-    function getter() public returns(string memory) {
-        text = "John Wesly";
+    function getter(string memory message) public returns(string memory) {
+        text = message;
         return text;
     }
 }
