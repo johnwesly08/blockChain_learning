@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "bytes3",
-						"name": "bt",
-						"type": "bytes3"
-					}
-				],
-				"name": "ByteToStrng",
+				"inputs": [],
+				"name": "myArr",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "int256[5]",
 						"name": "",
-						"type": "string"
+						"type": "int256[5]"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Conversions.sol": "DataTypeConvserion"
+			"contracts/Arrays.sol": "_array"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -52,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Conversions.sol": {
-			"keccak256": "0x6bc21c74ac0a0e406e6ebcf55bbe1aeb6e88fee9e2a5c0984222878cff0589e0",
+		"contracts/Arrays.sol": {
+			"keccak256": "0x4ee89c63549cfb52477544fb708194295f0f5258e1257abbb30aeed4f97fa3e6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ebaa8ce25244e75fae19807fc0bce6c0cab26ac70da21b3ad71dd60619dbb590",
-				"dweb:/ipfs/QmXPPEs2nrgbzP6Ng2PAE8rSH1DYqLee4s2aMV6GXNutYU"
+				"bzz-raw://1c49b20505b906f097ac5657a8b701eb3bcca9c005e2d0a5233770c62b52a301",
+				"dweb:/ipfs/QmSsfFWwD5aVwzs5aJQh3Vpy3u7ZM3JPhBLTGrb6RbVU3X"
 			]
 		}
 	},

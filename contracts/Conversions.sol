@@ -7,8 +7,8 @@ contract DataTypeConvserion {
 //         bytes memory bt = bytes(txt);
 //         return bt.length;
 //     }
-    function ByteToStrng(uint256 bt) public pure returns(string memory) {
-        string memory str =new string (bt); 
+    function ByteToStrng(bytes3 bt) public pure returns(string memory) {
+        string memory str = string(abi.encodePacked(bt)); 
         return str;
     }
 }

@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Arrays.sol": "array"
+			"contracts/Arrays.sol": "array1"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Arrays.sol": {
-			"keccak256": "0x76f798bfc0f83083a685a1372f450b41733728fa28e9bc2a4d7413d0dfef804e",
+			"keccak256": "0x4ee89c63549cfb52477544fb708194295f0f5258e1257abbb30aeed4f97fa3e6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df5c4b88ad42f9332b380006830e613054ea83da388d87997e191bbe01882f5d",
-				"dweb:/ipfs/QmcvpPzkgaMtq98aMpfkHjgCHY2ACyFLWfXxPp89cs1FGk"
+				"bzz-raw://1c49b20505b906f097ac5657a8b701eb3bcca9c005e2d0a5233770c62b52a301",
+				"dweb:/ipfs/QmSsfFWwD5aVwzs5aJQh3Vpy3u7ZM3JPhBLTGrb6RbVU3X"
 			]
 		}
 	},
